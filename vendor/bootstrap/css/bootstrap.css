@@ -1115,21 +1115,14 @@ figure {
 img {
   vertical-align: middle;
 }
-
-.img-profile-pic {
-  max-width: 50%;
-  border-radius: 50%;
-}
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 50%;
-  border-radius: 50%;
+  max-width: 100%;
   height: auto;
-
 }
 .img-rounded {
   border-radius: 6px;
@@ -1149,10 +1142,9 @@ img {
 }
 .img-circle {
   border-radius: 50%;
-  margin-right: auto;
-  margin-left: auto;
+  width: 50%;
+  height: auto;
 }
-
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
